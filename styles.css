@@ -1,0 +1,32 @@
+body {
+  background-color: #fffaff;
+  color: #88654f;
+  font-family: "Poffin", sans-serif; /* Use Poffin font */
+}
+
+label,
+select,
+option,
+input {
+  color: #88654f;
+  font-family: "Poffin", sans-serif; /* Use Poffin font */
+}
+
+select {
+  border: 1px solid #88654f; /* Add a border to select boxes */
+  border-radius: 5px; /* Make borders rounded */
+  padding: 5px; /* Add some padding for better appearance */
+}
+
+option {
+  padding: 3px; /* Add padding to options */
+}
+
+input[type="submit"] {
+  background-color: #88654f; /* Button background color */
+  color: #fffaff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
